@@ -93,7 +93,7 @@
 	#black-hole {
 	  width: 200px;
       height: auto;
-	  position: fixed;
+	  position: absolute;
       bottom: 1;
       left: 0;
 	  z-index: 2;	
