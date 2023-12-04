@@ -74,6 +74,7 @@
     .animacion{
 	  transition-timing-function: ease-out;
       animation: mover_dog 3s infinite alternate;
+   /* animation: mover_dog 3s infinite alternate ease-out; */ /* <- 正确的写法 */
 	  position: absolute;
 	  right: 3;
       top: 100%;
